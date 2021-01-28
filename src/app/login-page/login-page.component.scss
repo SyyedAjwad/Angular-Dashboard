@@ -1,0 +1,54 @@
+.full-page-wrapper {
+  min-height: 100vh;
+  padding-left: 0;
+  padding-right: 0;
+}
+.auth.auth-bg-1 {
+  background: url('../../assets/login_1.jpg');
+  background-size: cover;
+}
+.auth {
+  min-height: 100vh;
+}
+.w-100 {
+  width: 100% !important;
+}
+.auth.theme-one .auto-form-wrapper {
+  background: #fff;
+  padding: 40px 40px 10px;
+  border-radius: 4px;
+  box-shadow: 0 -25px 37.7px 11.3px rgb(8 143 220 / 7%);
+}
+.form-group label {
+  font-size: 0.875rem;
+  line-height: 1;
+  vertical-align: top;
+}
+.auth.theme-one .auto-form-wrapper .form-group .input-group {
+  height: 44px;
+}
+.auth.theme-one .auto-form-wrapper .form-group .input-group .form-control {
+  border: 1px solid #cfd5db;
+  border-right: none;
+  border-radius: 6px 0 0 6px;
+  height: 44px;
+  line-height: 4px;
+  display: inline-block;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.auth.theme-one .auto-form-wrapper .form-group .input-group .input-group-append {
+  border-left: none;
+}
+.input-group-append, .input-group-prepend {
+  background: #fff;
+  color: #6c757d;
+  width: auto;
+  border: none;
+}
+.auth.theme-one .auto-form-wrapper .form-group .input-group .input-group-append .input-group-text {
+  border-radius: 0 6px 6px 0;
+  border-left: none;
+  border-color: #cfd5db;
+  color: #b6b6b6;
+}
